@@ -67,6 +67,6 @@ export class Task {
 }
 
 export enum TaskState {
-  TODO = "TODO",
-  DONE = "DONE"
+  TODO = 'TODO',
+  DONE = 'DONE'
 }

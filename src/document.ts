@@ -79,7 +79,7 @@ export class Document {
   }
 
   public taskList(localId: string): TaskList {
-    return this.content.add(new TaskList(localId))
+    return this.content.add(new TaskList(localId));
   }
 
   public toJSON(): Typed {

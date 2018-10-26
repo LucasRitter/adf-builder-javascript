@@ -1,5 +1,5 @@
-import { Task, TaskState } from './task';
 import { ContentNode, TopLevelNode, Typed } from './index';
+import { Task, TaskState } from './task';
 
 export class TaskList extends TopLevelNode {
 

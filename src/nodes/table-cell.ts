@@ -16,7 +16,7 @@ const colorPattern = /^#[0-9a-f]{6}$/;
 
 export class TableCell {
 
-  private content = new ContentNode<TopLevelNode>('tableCell');
+  public content = new ContentNode<TopLevelNode>('tableCell');
 
   constructor(
     private readonly backgroundColor?: string) {

@@ -4,7 +4,7 @@ import { TableHeader } from './table-header';
 
 export class TableRow {
 
-  private content = new ContentNode<TableHeader | TableCell>('tableRow');
+  public content = new ContentNode<TableHeader | TableCell>('tableRow');
 
   public cell(backgroundColor?: string): TableCell {
     return this.content.add(new TableCell(backgroundColor));

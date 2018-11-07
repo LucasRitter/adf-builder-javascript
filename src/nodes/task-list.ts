@@ -3,7 +3,7 @@ import { Task, TaskState } from './task';
 
 export class TaskList extends TopLevelNode {
 
-  private content = new ContentNode<Task>('taskList');
+  public content = new ContentNode<Task>('taskList');
 
   constructor(
     private readonly localId: string) {

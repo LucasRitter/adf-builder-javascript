@@ -7,7 +7,7 @@ import { code, em, link, strike, strong, Text } from './text';
 
 export class Task {
 
-  private content = new ContentNode<InlineNode>('taskItem');
+  public content = new ContentNode<InlineNode>('taskItem');
 
   constructor(
     private readonly localId: string,
